@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +12,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
 
 button{
@@ -24,3 +24,18 @@ button{
     
 
 }
+
+.moving-div {
+      width: 100px;
+      height: 100px;
+      background-color: #3498db;
+      position: relative;
+      animation: slide 3s ease-in-out infinite;
+      margin-top: 5g0px;
+    }
+
+    @keyframes slide {
+      0% { left: 0; }
+      50% { left: 300px; }
+      100% { left: 0; }
+    }
