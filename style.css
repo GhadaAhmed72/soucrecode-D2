@@ -31,7 +31,7 @@ button{
       background-color: #3498db;
       position: relative;
       animation: slide 3s ease-in-out infinite;
-      margin-top: 5g0px;
+      margin-top: 50px;
     }
 
     @keyframes slide {
